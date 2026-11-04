@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "pages": 558,
+    "sections": {
+      "ads": 21,
+      "misc": 25,
+      "street": 91,
+      "alphabetical": 368,
+      "classified": 53
+    },
+    "counts": {
+      "ads": 2057,
+      "other": 604,
+      "heading": 1727,
+      "business": 5144,
+      "street": 11879,
+      "proprietor": 3284,
+      "person": 20190
+    },
+    "seconds": 2544.5,
+    "source": "GaryCityDirectory1922_images.PDF"
+  },
+  "config": {
+    "dpi": 300,
+    "text_source": "auto",
+    "min_text_quality": 0.88,
+    "ocr_ads": true,
+    "deskew": true,
+    "workers": 0,
+    "profile": "polk-1920s",
+    "ocr": {
+      "lang": "eng",
+      "oem": 1,
+      "text_psm": 6,
+      "ad_psm": 6,
+      "ad_fallback_psm": 3,
+      "min_conf": 0.0,
+      "pad": 12,
+      "upscale_below_dpi": 250,
+      "try_rotations": true,
+      "timeout": 120.0
+    },
+    "layout": {
+      "min_column_height": 0.22,
+      "min_column_width_em": 8.0,
+      "rule_solid": 0.9,
+      "rule_min_cont": 0.65,
+      "rule_max_gaps_per_inch": 12.0,
+      "dense_gutters": true,
+      "body_large_frac": 0.2,
+      "twin_columns": true
+    },
+    "cache_dir": "GaryCityDirectory-Polk-1922/_pages",
+    "image_format": "jpg"
+  },
+  "files": {
+    "pages": "pages.jsonl",
+    "entries": "entries.csv",
+    "ads": "ads.csv",
+    "businesses": "businesses.csv",
+    "business_index": "business_index.csv"
+  },
+  "counts": {
+    "entries": 41101,
+    "businesses": 10938,
+    "ads": 2057,
+    "distinct_businesses": 7035
+  }
+}
